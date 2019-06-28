@@ -8,11 +8,11 @@
 .alap {
   background-color: aqua;
   width: 500px;
-  max-width: calc(100vw-10px);
+  max-width: calc(100vw - 10px);
 }
 
 .quote {
-  background-color: cornflowerblue
+  background-color: cornflowerblue;
 }
 
 .author {
@@ -24,5 +24,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
+.quote, .author {
+  text-align: center;
+  margin: 0 auto;
+}
