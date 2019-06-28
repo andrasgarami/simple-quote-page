@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+.alap {
+  background-color: aqua;
+  width: 500px;
+  max-width: calc(100vw-10px);
+}
+
+.quote {
+  background-color: cornflowerblue
+}
+
+.author {
+    background-color: #e8d818;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
