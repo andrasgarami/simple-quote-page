@@ -6,17 +6,22 @@
 }
 
 .alap {
-  background-color: aqua;
-  width: 500px;
-  max-width: calc(100vw - 10px);
+  background: hsla(230, 50%, 50%, .5);
+  max-width: calc(95% - 40px);
+  height: 65%;
 }
 
 .quote {
-  background-color: cornflowerblue;
+  background: hsla(150, 50%, 50%, .5);
+  height: 30%;
+  font-variant-caps: small-caps;
+  font-size: 2em;
+  
 }
 
 .author {
-    background-color: #e8d818;
+  background: hsla(80, 50%, 50%, .5);
+  font-style: italic;
 }
 
 body {
@@ -26,9 +31,11 @@ body {
   height: 100vh;
   background: url(assets/freedom.jpg) no-repeat center center fixed;
   background-size: cover;
-}
+  }
 
 .quote, .author {
   text-align: center;
   margin: 0 auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: hsla(100, 10%, 10%, .8);
 }
