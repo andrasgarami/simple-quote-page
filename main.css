@@ -7,21 +7,26 @@
 
 .alap {
   background: hsla(230, 50%, 50%, .5);
-  max-width: calc(95% - 40px);
-  height: 65%;
+  max-width: calc(95% - 70px);
+  height: 75%;
 }
 
 .quote {
   background: hsla(150, 50%, 50%, .5);
-  height: 30%;
+  height: auto;
   font-variant-caps: small-caps;
-  font-size: 2em;
-  
+  font-size: 2.4em;
+  line-height: 1.6;
+  letter-spacing: 4px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .author {
   background: hsla(80, 50%, 50%, .5);
   font-style: italic;
+  height: auto;
+  padding-top: 50px
 }
 
 body {
